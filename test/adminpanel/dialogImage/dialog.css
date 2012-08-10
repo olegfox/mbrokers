@@ -1,0 +1,45 @@
+#allDialog{
+  height:500px;
+  width:100%;
+  position:fixed;
+  z-index:3500;
+}
+#leftbarDialog{
+  height:500px;
+  width:13%;
+  position:fixed;
+  background:white;
+}
+#contentDialog{
+  position:fixed;
+  height:400px;
+  width:76%;
+  overflow:scroll;
+  background:white;
+  left:19%;
+  padding-left:10px;
+}
+#downloadDialog{
+  position:fixed;
+  height:100px;
+  width:76%;
+  top:79%;
+  left:19%;
+  background:white;
+  padding-left:10px; 
+}
+#leftbarDialogList{
+    width:100%;
+}
+#leftbarDialogList a{
+  font-size:10pt;
+}
+#leftbarDialogList li{
+  background:none;
+  width:100%;
+}
+#contentDialogPicture:hover{
+  cursor:pointer;
+  background:grey;
+}
+

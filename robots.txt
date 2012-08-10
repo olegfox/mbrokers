@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /partners/
+Allow: /commercial/
+Allow: /car_insurance/
+Allow: /health_insurance/
+Allow: /contact/
+Allow: /index.php
+Allow: /car_insurance/kasko/
+Allow: /property_insurance/
+Allow: /about/
+Allow: /car_insurance/osago/
+Allow: /action/
+Allow: /travel_abroad/
+Allow: /green_card/
+Disallow: /mailto://%20request@m-brokers.ru
+Disallow: /adminpanel/
+Disallow: /phpmyadmin/
+Disallow: /javascript://
+Disallow: /metrika.yandex.ru/stat/?id=7289497&from=informer
+
+User-agent: Yandex
+Disallow: /cgi-bin
+Host: www.m-brokers.ru

@@ -1,0 +1,121 @@
+.calculator_all{
+	width:auto;
+	height:auto;
+	background-color:white;
+	margin:-140px auto 0 10px;
+}
+#substrate{
+ //border:solid 1px;
+}
+#substrate:hover{
+ background-color:#efefef;
+ cursor:pointer;
+}
+#zayavka_button{
+  background:url(/images/zayavka_button.png) no-repeat; 
+  border:0; 
+  width:200px; 
+  height:40px;
+  margin-top:20px;
+}
+#zayavka_button:hover{
+  cursor:pointer;
+}
+.head_calc{
+ //background-color:#7ed248;
+}
+.face{
+	width:auto;
+	height:auto;
+	//padding:30% 30%;
+	display:block;
+}
+.b_stavka{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.territor{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.nal{
+	display:none;
+	width:630px;
+	height:auto;
+}
+.age{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.count_face{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.period_ts{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.moshnost{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.srok_strah{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.narush{
+	display:none;
+	width:auto;
+	height:auto;
+}
+.itogo{
+	display:none;
+	width:auto;
+	height:auto;
+}
+#next, #nazad{
+	width:200px;
+	height:40px;
+	background:url(/images/button_next.png) no-repeat;
+	margin:10px 10px 10px 10px;
+	top:349px;
+	left:466px;
+	position:absolute;
+}
+#next, #nazad:hover{
+ cursor:pointer;
+ display:none;
+}
+#nazad{
+left:-11px;
+//margin:10px 0px 0px 10px;
+	display:none;
+ background:url(/images/button_preview.png) no-repeat;
+}
+#next{
+border-radius:0 0 5px 0;
+-moz-border-radius:0 0 5px 0;
+-webkit-border-radius:0 0 5px 0;
+}
+#nazad{
+border-radius:0 0 0 5px;
+-moz-border-radius:0 0 0 5px;
+-webkit-border-radius:0 0 0 5px;
+}
+.radio {
+  width: 23px;
+  height: 23px;
+  //padding: 0 5px 0 0;
+  background: url(/images/radio.png) no-repeat;
+  display: inline-block;
+  clear: left;
+  //float: left;
+  //border:solid 1px;
+}
