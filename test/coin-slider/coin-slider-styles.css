@@ -1,0 +1,41 @@
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+@font-face {
+font-family: "font";
+src: url("/ttf/42852.ttf");
+}
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px;border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+.cs-title { width: 615px; margin:0 15px 0px 15px;  border-radius:10px 10px 0 0;
+-moz-border-radius:10px 10px 0 0;
+-webkit-border-radius:10px 10px 0 0;
+padding-top:10px; padding-bottom:10px; background-color: #000000; color: #FFFFFF; }
+
+.cs-prev{
+background-color: #000000; 
+color: #FFFFFF; 
+font-family: "font";
+font-size: 24px;
+padding: 0px 10px; 
+border-radius:0 10px 10px 0;
+-moz-border-radius:0 10px 10px 0;
+-webkit-border-radius:0 10px 10px 0;
+} 
+.cs-next { 
+font-family: "font";
+background-color: #000000; 
+color: #FFFFFF; 
+font-size: 24px;
+padding: 0px 10px; 
+border-radius:10px 0 0 10px;
+-moz-border-radius:10px 0 0 10px;
+-webkit-border-radius:10px 0 0 10px;}

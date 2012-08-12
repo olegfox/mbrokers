@@ -1,0 +1,24 @@
+* {
+	margin:0;
+	padding:0;
+	
+}
+body {
+	font: 14px/18pt Arial, Helvetica, sans-serif;
+	margin: 0px 50px 50px 50px;
+	height: auto;
+	text-align: justify;
+}
+.baner, .baner_2, #header, .sidebar, .topmenu,.content_1,.content_3,.objavl,.naverh,.ctrl,.content_0, .footer, .foot {display: none}
+#content_2 {
+display: block !important;
+width: auto;
+margin: 0 5%;
+padding: 0;
+float: none !important;
+color: black;
+background: transparent none;
+}
+.str{
+content:'->';
+}
